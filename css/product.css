@@ -1,0 +1,52 @@
+.conteiner{
+    width:1024px;
+    height:250px;
+    margin:auto;
+    margin-bottom:10px;
+    background-color: cornflowerblue;
+    display: flex;
+    border-radius:5px;
+}
+.image{
+    width:250px;
+    height:250px;
+
+}
+.content{
+    flex:1;
+    height:250px;
+    padding:0px 15px;
+    overflow-y:auto;
+
+}
+.cost{
+    width:160px;
+    height:250px;
+    text-align:center;
+}
+.cost .button{
+    width:auto;
+}
+@media (max-width:900px){
+    .conteiner{
+    height:auto;
+    max-width:none;
+    width:100%;
+    display:block;
+    }
+    .image{
+        width:100%;
+        height:auto;
+    }
+    .cost{
+        width:auto;
+        height:auto;
+    }
+}
+@media (max-width:1024px){
+    .conteiner{
+        width:95%;
+    }
+}
+
+    

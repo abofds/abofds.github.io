@@ -1,0 +1,17 @@
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+}
+.images img{
+    width:300px;
+    margin:5px;
+    filter:blur(2px) opacity(0.5);
+    
+}
+.images img:hover{
+    z-index:1;
+    transform:scale(2.1) rotateZ(360deg);
+    transition-duration:500ms;
+    filter:blur(0px) opacity(1);
+}

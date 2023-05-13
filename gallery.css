@@ -1,0 +1,33 @@
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+}
+.images img{
+    width:15%;
+    
+    margin:5px;
+    filter:blur(2px);
+    
+}
+.images img:hover{
+    z-index:1;
+    transform:scale(2.1) rotateZ(360deg);
+    transition-duration:500ms;
+    filter:blur(0px);
+}
+
+.gallery{
+   width:100%;
+   display:flex;
+    margin:auto;
+}
+.active{
+        pointer-events: none;        
+        filter:drop-shadow(10px);
+}
+.reviu img{    
+    width:760px;
+    border-radius:5px;
+}
